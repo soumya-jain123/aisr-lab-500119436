@@ -1,0 +1,13 @@
+# conda / mamba environment (prebuilt PyBullet for Windows, macOS Intel + Apple Silicon, Linux)
+#   conda env create -f environment.yml
+#   conda activate aisr-xembody
+name: aisr-xembody
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pybullet
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pillow
